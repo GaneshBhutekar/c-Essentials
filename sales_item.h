@@ -47,6 +47,18 @@ class sales_item{
         cin>>s.book_name;
         return os;
     }
+    
+    friend int operator+(sales_item& s1,sales_item &s2){
+        // check both object isbn
+        if (s1.isbn==s2.isbn){
+            cout<<"isbn: "<<s1.isbn<<endl;
+            cout<<"total sold: "<<s1.cps_sold+s2.cps_sold<<endl;
+            cout<<"total revenue: "<<s1.total_revenue+s2.total_revenue<<endl;
+        }
+        else{
+            cout<<"isbn is not same"<<endl;
+        }
+    }
 
 };
 

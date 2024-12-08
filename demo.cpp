@@ -2,7 +2,9 @@
 #include"sales_item.h"
 using namespace std;
 int main(){
-    sales_item ikigai("isbn0001");
-    cout<<ikigai<<endl;
-    cin>>ikigai;
+    sales_item book1("isbn1");
+    sales_item book2("isbn1");
+    cin>>book1;
+    cin>>book2;
+    
 }
