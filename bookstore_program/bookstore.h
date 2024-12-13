@@ -7,7 +7,7 @@ using namespace std;
 // we are doing +,<< and >>
 class bookstore{
     public:
-    double revenue = 0.0;
+    double revenue = 0.0; // this will be the value after the defining the object which is uninitilized
     double avg_price = 0.0;
     string isbn;
     int times =1;

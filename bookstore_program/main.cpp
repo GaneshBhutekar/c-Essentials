@@ -23,6 +23,9 @@ int main(){
             }
         }
     }
+
+    bookstore demo;
+    cout<<"uninitiualized object of bookstore.h is : "<<demo<<endl;
     
 
 
