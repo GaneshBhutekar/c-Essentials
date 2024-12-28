@@ -10,6 +10,13 @@ int main(){
     // aliases on the pointer.
     typedef char *pstring;
     const pstring cstr = 0;
-    const pstring *ps;
-    
+    // const char* *ps;
+    // std::cout<<*ps<<std::endl;
+
+    int number = 89;
+    const int * ptr = &number;
+    int number1 = 78;
+    ptr = &number1;
+    // here we can change the addresss
+    std::cout<<*ptr<<std::endl;    
 }
