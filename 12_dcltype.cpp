@@ -5,9 +5,6 @@
 char returning(){
     return 'i';
 }
-
-
-
 int main(){
     int z = 67;
     int x= 10;
